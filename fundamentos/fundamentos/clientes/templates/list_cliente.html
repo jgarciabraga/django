@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load bootstrap4 %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cliente</title>
+    {% bootstrap_css %} {% bootstrap_javascript jquery='full' %}
+  </head>
+  <body>
+    <h1>{{ cliente.nome }}</h1>
+    <hr />
+    <li>{{ cliente.nome }}</li>
+    <li>{{ cliente.email }}</li>
+    <li>{{ cliente.data_nascimento }}</li>
+    <li>{{ cliente.cpf }}</li>
+    <li>{{ cliente.is_ativo }}</li>
+  </body>
+</html>

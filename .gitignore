@@ -1,0 +1,6 @@
+
+fundamentos/venv/
+fundamentos/fundamentos/db.sqlite3
+fundamentos/fundamentos/clientes/migrations/
+fundamentos/fundamentos/clientes/__pycache__/
+fundamentos/fundamentos/fundamentos/__pycache__/
